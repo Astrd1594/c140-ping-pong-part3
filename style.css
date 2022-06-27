@@ -1,0 +1,93 @@
+body{
+    background-repeat: no-repeat;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+canvas{
+    border: 2px solid rgb(222, 107, 7);
+    border-radius: 10px;
+}
+img.bg{
+    width: 100%;
+    height: 100%;
+}
+h2{
+    float: left;
+}
+.heading{
+    width: 100% !important;
+    text-align: left;
+    border-radius: 0px;
+    border: 0px solid white;
+    font-size: 30px !important;
+    cursor: default;
+    transition: all 0.2s ease-in-out;
+    padding: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(69, 69, 69);
+}
+.heading h3{
+    display: inline;
+    margin-left: 20px;
+}
+button{
+    float: right;
+    border: 0px solid white;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+button:hover{
+    transform: scale(1.05);
+    border-color: white;
+}
+button:active{
+    transform: 0.1s ease-in-out;
+    transform: scale(0.98);
+}
+.btn{
+    font-size: 17px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Paytone One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#myModal{
+    font-weight: bolder !important;
+}
+#instructionsheading{
+    font-weight: bolder !important;
+}
+img{
+    margin-top: 30px;
+}
+.alert-warning{
+    width: 45%;
+    margin-top: 75px;
+}
+#footer{
+    margin: 0;
+    bottom: 0;
+    position: absolute;
+    text-align: center !important;
+    width: 100%;
+    line-height: 2;
+    background-color: rgb(232, 232, 232);
+    position: fixed;
+}
+#credit{
+    text-align: center !important;
+}
+#footer, #status{
+    cursor: default;
+}
